@@ -9,6 +9,8 @@
 - 내 컴퓨터의 해시키 미리 알아놓기
 - 카카오로그인 활성화 설정
 
+## 시작
+
 1. 새로운 project를 만든 후, build.gradle에 필요한 패키지를 추가한다.
     implementation 'com.github.bumptech.glide:glide:4.13.1'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
