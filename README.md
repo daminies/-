@@ -12,19 +12,22 @@
 ## 시작
 
 1. 새로운 project를 만든 후, build.gradle에 필요한 패키지를 추가한다.
+```
     implementation 'com.github.bumptech.glide:glide:4.13.1'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation "com.kakao.sdk:v2-user:2.9.0" 
-    
-    추가적으로
+```    
+    아래 binding에 관한 부분도 추가해준다. 
+    ```
     buildFeatures {
         viewBinding=true
-    } 도 추가해준다. 
+    }```
     
 2. manifest에 아래코드를 추가해준다. 
+```
           <activity
             android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
             android:exported="true">
@@ -35,8 +38,8 @@
                 <data android:host="oauth"
                     android:scheme="kakao자신의네이티브키값" />
             </intent-filter>
-
- 더 상세한 부분은 코드 참고
+```
+     더 상세한 부분은 코드 참고
   
 3. res > value > style.xml 부분을 추가해준다.(이부분은 생략가능)
   
