@@ -5,7 +5,7 @@
 - kotlin사용
 
 ## 사전작업
-- 카카오개발자페이지(https://developers.kakao.com/)에서 네이티브 앱 키 받아놓기
+- [카카오개발자페이지](https://developers.kakao.com/)에서 네이티브 앱 키 받아놓기
 - 내 컴퓨터의 해시키 미리 알아놓기
 - 카카오로그인 활성화 설정
 
